@@ -1,0 +1,38 @@
+
+<mat-toolbar color="primary">  
+
+<mat-icon>home</mat-icon>
+<p>PM-Vcharts</p>
+
+</mat-toolbar>
+<gantt></gantt>
+
+
+
+      Lista cu nume 
+<ul>
+    <li *ngFor="let user of users">{{ user.name }}</li>
+</ul>  
+
+
+
+
+        Lista task-uri
+  <ul>
+      <li *ngFor="let task of tasks">{{ task.text }}</li>
+      <li *ngFor="let task of tasks">{{ task.id }}</li>
+      <li *ngFor="let task of tasks">{{ task.progress }}</li>
+      <li *ngFor="let task of tasks">{{ task.data }}</li>
+      <li *ngFor="let task of tasks">{{ task.parent }}</li>
+      <li *ngFor="let task of tasks">{{ task.duration }}</li>
+  </ul>  
+    
+
+
+    Lista test
+    <ul>
+        <li *ngFor="let t of test">{{ t.name }}</li>
+      
+    </ul>  
+
+  
